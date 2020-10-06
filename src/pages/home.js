@@ -15,8 +15,8 @@ export class HomePage extends PureComponent {
         return (
             <div className="HomePage" >
                 <Home_NavBar />
-                <p className="MainContent">Empowering secure access to <span style={{color:"#5B47FF"}}>the Web 3.0</span></p>
-                <p className="SubContent">Building decentralized and distributed networking solutions and contributing to the Cosmos open source community</p>
+                <p className="MainContentHome">Empowering secure access to <span style={{color:"#5B47FF"}}>the Web 3.0</span></p>
+                <p className="SubContentHome">Building decentralized and distributed networking solutions and contributing to the Cosmos open source community</p>
             </div>
         )
     }

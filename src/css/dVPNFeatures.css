@@ -1,0 +1,73 @@
+.DVPNFeaturesPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 798px;
+    gap: 2em;
+    background: #F8F8FD;
+}
+
+.TitleTextDVPNFeatures {
+    position: relative;
+    width: 65%;
+    left: 10%;
+    top: 20%;
+    font-family: Mulish;
+    text-align: left;
+    font-style: Bold;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0D0D0D;
+}
+
+.FeatureBoxDVPNFeatures {
+    position: relative;
+    display: flex;
+    justify-content: stretch;
+    gap: 5%;
+    left: 10%;
+    top: 30%;
+    width: 80%;
+}
+
+.FeatureDVPNFeatures {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 25%;
+}
+
+.FeatureDVPNFeatures > img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.HeadingDVPNFeatures {
+    position: relative;
+    width: 100%;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 160%;
+    color: #0D0D0D;
+}
+
+.SubHeadingDVPNFeatures {
+    position: relative;
+    width: 100%;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0D0D0D;
+}
+
+.feature4DVPNFeatures {
+    white-space: nowrap;
+}

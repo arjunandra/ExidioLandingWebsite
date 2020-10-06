@@ -1,14 +1,18 @@
 .CosmosPage {
     position: relative;
     left: 0px;
-    top: -10%;
+    top: 0%;
     width: 100%;
     height: 791px;
+    background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%);
+    border: 1px solid #E9F0F4;
+    box-sizing: border-box;
 }
 
-.TitleText {
+.TitleTextCosmos {
     width: 40%;
-    left: 15%;
+    left: 10%;
+    top: 10%;
     position: relative;
     font-family: Mulish;
     text-align: left;
@@ -17,4 +21,78 @@
     font-size: 48px;
     line-height: 60px;
     color: #0D0D0D;
+}
+
+.ContentCosmos {
+    position: relative;
+    display: flex;
+    top: 15%;
+    left: 10%;
+    justify-content: start;
+    width: 70%;
+    column-gap: 30%;
+}
+
+.ContentBoxCosmos {
+    position: relative;
+    width: 30%;
+    gap: 6em;
+}
+
+.LogoPortion {
+    position: relative;
+    display: flex;
+}
+
+.Logo {
+    position: relative;
+}
+
+.Text1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 160%;
+    color: #0D0D0D;
+    text-align: left;
+
+}
+
+.Text2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: #0D0D0D;
+    text-align: left;
+}
+
+.LearnMoreCosmos {
+    position: relative;
+    display: flex;
+    font-family: Mulish;
+    font-style: normal;
+    width: 100%;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    color: #5B47FF;
+    align-items: center;
+}
+
+.LearnMoreCosmos > img {
+    position: relative;
+    width: 19px;
+    height: 19px;
+    left: 5%;
+}
+
+.box1 {
+    position: relative;
+}
+
+.box2 {
+    position: relative;
 }

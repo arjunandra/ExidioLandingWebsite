@@ -1,0 +1,118 @@
+.FooterContainer {
+    position: relative;
+    width: 100%;
+    height: 488px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row; 
+    gap: 3em; 
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftFooter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 60%;
+    width: 40%;
+    padding: 1em;
+}
+
+.FooterContactSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 31.26px;
+    height: 31.26px;
+    left: 5%;
+}
+
+.LeftFooterBase {
+    top: 40%;
+    left: 5%;
+    position: relative;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #434359;
+}
+
+.RightFooter {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 40%;
+    padding: 1em;
+}
+
+.FooterLinks {
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.FooterLinksBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0em;
+}
+
+.FooterLinksHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D0D0D;
+}
+
+.FooterLinksSubHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #434359;
+}
+
+.FooterLowerLinks {
+    position: relative;
+    top: -5%;
+}
+
+.LinkedInLink {
+    position: relative;
+    top: -10%;
+}
+
+.RightFooterBase {
+    position: relative;
+    top: -5%;
+    right: 10%;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #434359;
+}
