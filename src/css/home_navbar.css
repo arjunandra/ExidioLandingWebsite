@@ -13,7 +13,7 @@
     position: relative;
     width: 114.4px;
     height: 38.04px;
-    left: 5%;
+    left: 0%;
     background-image: url("../images/ExidioLogo.png");
 }
 
@@ -33,6 +33,10 @@
     color: #0D0D0D;
 }
 
+.NavInverse {
+    color: white;
+}
+
 .ContactUs {
     display: flex;
     position: relative;
@@ -49,7 +53,11 @@
     line-height: 20px;
     color: #FFFFFF;
     background-color: black;
-    
+}
+
+.ContactInverse {
+    background-color: white;
+    color: black;
 }
 
 .ContactUsBtn {

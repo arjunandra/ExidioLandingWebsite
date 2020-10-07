@@ -27,12 +27,12 @@
     gap: 1em;
     width: 31.26px;
     height: 31.26px;
-    left: 5%;
+    left: 0%;
 }
 
 .LeftFooterBase {
     top: 40%;
-    left: 5%;
+    left: 0%;
     position: relative;
     font-family: Mulish;
     font-size: 16px;

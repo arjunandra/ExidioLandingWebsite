@@ -15,7 +15,7 @@ export class DVPNHomePage extends PureComponent {
     render() {
         return (
             <div className="DVPNHomePage">
-                <Home_NavBar selectedDVPN="dVPN" />
+                <Home_NavBar selected="dVPN" />
                 <p className="MainContentDVPNHome"> Create your own decentralized and distributed VPN network  <span style={{color:"#5B47FF"}}>with Exidio today!</span></p>
                 <img src={DVPNHomePage}></img>
             </div>

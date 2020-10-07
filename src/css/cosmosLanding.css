@@ -1,0 +1,91 @@
+.CosmosLandingPage {
+    position: relative;
+    width: 100%;
+    height: 771.3px;
+    background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    background-image: url('../images/HomeBackground.png');
+}
+
+.CosmosLandingPageLayout {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    left: 10%;
+    top: 15%;
+    width: 90%;
+}
+
+.CosmosLandingPageContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.CosmosLandingPageHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000000;
+}
+
+.CosmosLandingPageHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #000000;
+}
+
+.CosmosLandingPageSubHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0D0D0D;
+}
+
+.CosmosLandingPageLogos {
+    position: relative;
+    display: flex;
+    top: 5%;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.CosmosLandingPageLogoBox {
+    position: relative;
+    display: flex;
+    width: 146px;
+    height: 35px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.CosmosLandingPageLogoBox > img {
+    position: relative;
+}
+
+.CosmosLandingPageLogo {
+    position: relative;
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 9.55139px 81.1868px rgba(0, 0, 0, 0.05);
+    border-radius: 401.802px; */
+}
