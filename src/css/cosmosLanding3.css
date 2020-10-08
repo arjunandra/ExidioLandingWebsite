@@ -1,0 +1,72 @@
+.ComsosLandingPage3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 731px;
+    width: 100%;
+    background: #0D0D0D;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.CosmosLanding3Heading {
+    position: relative;
+    display: flex;
+    width: 60%;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CosmosLanding3Context {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.CosmosLanding3ContextBox {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 30%;
+} 
+
+.CosmosLanding3ContextBox > img {
+    position: relative;
+    
+}
+
+.CosmosLanding3ContextHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CosmosLanding3ContextSubHeading {
+    position: relative;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+

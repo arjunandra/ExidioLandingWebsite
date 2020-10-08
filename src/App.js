@@ -12,6 +12,7 @@ import { CompaniesPage } from './pages/companies'
 import { ContactUsPage } from './pages/contactUs'
 import { CosmosLandingPage } from './pages/cosmosLanding'
 import { CosmosLandingPage2 } from './pages/cosmosLandingPage2'
+import { CosmosLandingPage3 } from './pages/cosmosLandingPage3'
 import FooterSection  from './components/footer'
 import './App.css';
 
@@ -81,6 +82,7 @@ export class CosmosLandingFull extends Component {
       <div className="DVPNLandingPage">
         <CosmosLandingPage />
         <CosmosLandingPage2 />
+        <CosmosLandingPage3 />
         <FooterSection />
     </div>
     )
