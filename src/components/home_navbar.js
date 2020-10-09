@@ -45,10 +45,10 @@ export default class Home_NavBar extends Component {
         if (this.props.selected === "About") {
             return (
                 <div className="HomeNavBar"> 
-                    <div className="ExidioLogo" />
-                    <NavCell title="dVPN" inverse />
-                    <NavCell title="Cosmos" inverse />
-                    <NavCell title="Sentinel"  inverse />
+                    <div className="ExidioLogoInverse" />
+                    <NavCell title="dVPN" inverse={true} />
+                    <NavCell title="Cosmos" inverse={true} />
+                    <NavCell title="Sentinel" inverse={true} />
                     <NavCell title="About" selected="About" />
                     <div className="ContactUs ContactInverse">
                         <div>Contact Us</div>
@@ -87,13 +87,13 @@ export class NavCell extends Component {
                 )
         }
 
-        if (this.props.selected === "Cosmos") {
+        else if (this.props.selected === "Cosmos") {
             return (
                 <div className="NavCell SelectedNavBarBtn"><a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.title}</a></div> 
                 )
         }
 
-        if (this.props.selected === "About") {
+        else if (this.props.selected === "About") {
             return (
                 <div className="NavCell SelectedNavBarBtn"><a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.title}</a></div> 
                 )
@@ -101,28 +101,38 @@ export class NavCell extends Component {
 
         // dVPN Cell
         if (this.props.title === "dVPN") {
+            if (this.props.inverse) {
+                return (
+                    <div className="NavCellInverse"><Link to="/dVPN">{this.props.title}</Link></div> 
+                )
+            }
             return (
                 <div className="NavCell"><Link to="/dVPN">{this.props.title}</Link></div> 
             )
         }
 
         // Cosmos Cell
-        if (this.props.title === "Cosmos") {
+        else if (this.props.title === "Cosmos") {
+            if (this.props.inverse) {
+                return (
+                    <div className="NavCellInverse"><Link to="/Cosmos">{this.props.title}</Link></div> 
+                )
+            }
             return (
                 <div className="NavCell"><Link to="/Cosmos">{this.props.title}</Link></div> 
             )
         }
 
         // About Cell
-        if (this.props.title === "About") {
+        else if (this.props.title === "About") {
             return (
-                <div className="NavCell"><Link to="/Cosmos">{this.props.title}</Link></div> 
+                <div className="NavCell"><Link to="/About">{this.props.title}</Link></div> 
             )
         }
 
         if (this.props.inverse) {
             return (
-                <div className="NavCell NavInverse"><a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.title}</a></div> 
+                <div className="NavCellInverse"><a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.title}</a></div> 
             )
         }
 

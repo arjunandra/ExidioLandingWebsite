@@ -17,6 +17,14 @@
     background-image: url("../images/ExidioLogo.png");
 }
 
+.ExidioLogoInverse {
+    position: relative;
+    width: 114.4px;
+    height: 38.04px;
+    left: 0%;
+    background-image: url('../images/ExidioLogoInverse.png');
+}
+
 .NavCell {
     position: relative;
     left: 40%;
@@ -33,7 +41,19 @@
     color: #0D0D0D;
 }
 
-.NavInverse {
+.NavCellInverse {
+    position: relative;
+    left: 40%;
+    width: 10%;
+    height: 60%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
     color: white;
 }
 

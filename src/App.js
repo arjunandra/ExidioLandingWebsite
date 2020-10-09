@@ -13,6 +13,8 @@ import { ContactUsPage } from './pages/contactUs'
 import { CosmosLandingPage } from './pages/cosmosLanding'
 import { CosmosLandingPage2 } from './pages/cosmosLandingPage2'
 import { CosmosLandingPage3 } from './pages/cosmosLandingPage3'
+import { AboutPage1 } from './pages/aboutPage1'
+import { AboutPage2 } from './pages/aboutPage2'
 import FooterSection  from './components/footer'
 import './App.css';
 
@@ -23,6 +25,7 @@ function App() {
       <Route component={MainLandingPage} exact path="/"  />
       <Route component={DVPNLandingPage} exact path="/dVPN"  />
       <Route component={CosmosLandingFull} exact path="/Cosmos" />
+      <Route component={AboutLandingFull} exact path="/About" />
     </div>
     </BrowserRouter>
   );
@@ -87,6 +90,22 @@ export class CosmosLandingFull extends Component {
     </div>
     )
   } 
+}
+
+export class AboutLandingFull extends Component {
+  constructor(props){
+    super(props)
+  }
+
+  render() {
+    return (
+      <div className="AboutLandingPage">
+        <AboutPage1 />
+        <AboutPage2 />
+        <FooterSection />
+      </div>
+    )
+  }
 }
 
 
