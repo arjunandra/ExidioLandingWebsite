@@ -1,111 +1,58 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
-import { HomePage } from './pages/home'
-import { HomeFeaturesPage } from './pages/homeFeatures'
-import { DVPNHomePage } from './pages/dVPNHome'
-import { CosmosPage } from './pages/cosmos'
-import { FirstDAPP } from './pages/firstDapp';
-import { BuildingDAPP } from './pages/buildingDapp'
-import { SentinelPage } from './pages/sentinel'
-import { DVPNFeaturesPage } from './pages/dVPNFeatures'
-import { CompaniesPage } from './pages/companies'
-import { ContactUsPage } from './pages/contactUs'
-import { CosmosLandingPage } from './pages/cosmosLanding'
-import { CosmosLandingPage2 } from './pages/cosmosLandingPage2'
-import { CosmosLandingPage3 } from './pages/cosmosLandingPage3'
-import { AboutPage1 } from './pages/aboutPage1'
-import { AboutPage2 } from './pages/aboutPage2'
-import FooterSection  from './components/footer'
+import { Route, Switch, BrowserRouter as Router  } from 'react-router-dom';
+import './css/style.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './pages/components/Header'
+import Footer from './pages/components/Footer'
+const homePage = React.lazy(() => import('./pages/HomePage'));
+const dVPN = React.lazy(() => import('./pages/dVPN'));
+const cosmos = React.lazy(() => import('./pages/Cosmos'));
+const sentinel = React.lazy(() => import('./pages/Sentinel'));
+const about = React.lazy(() => import('./pages/About'));
 
-function App() {
-  return (
-    <BrowserRouter>
-    <div className="App">
-      <Route component={MainLandingPage} exact path="/"  />
-      <Route component={DVPNLandingPage} exact path="/dVPN"  />
-      <Route component={CosmosLandingFull} exact path="/Cosmos" />
-      <Route component={AboutLandingFull} exact path="/About" />
-    </div>
-    </BrowserRouter>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        isOpen: false
+    }
+    this.openModal = this.openModal.bind(this)
 }
+openModal () {
+    this.setState({isOpen: true})
+  }
+
+componentDidMount()
+{
+  document.body.classList = "";
+  document.getElementById('nav-bar').classList.add('navbar-white');
+}
+  render() {
+
+    return (
+      <React.Fragment>
+        <Router>
+        <Header />
+        <React.Suspense fallback={<div>&nbsp;</div>}>
+          <Switch>
+              <Route exact path="/" component={homePage} /> 
+              <Route path="/dvpn" component={dVPN} /> 
+              <Route path="/about" component={about} /> 
+              <Route path="/sentinel" component={sentinel} /> 
+              <Route path="/cosmos" component={cosmos} /> 
+           </Switch>
+           </React.Suspense>
+           <Footer />
+        </Router>        
+      </React.Fragment>
+    );
+  }
+}
+
+
 
 export default App;
 
-export class MainLandingPage extends Component {
-  constructor(props) {
-      super(props)
-      
-  }
-
-  render() {
-    return (
-      <div className="MainLandingPage">
-        <HomePage />
-        <HomeFeaturesPage />
-        <CosmosPage />
-        <FirstDAPP />
-        <BuildingDAPP />
-        <CompaniesPage />
-        <ContactUsPage />
-        <FooterSection />
-      </div>
-    );
-  }
-}
-
-export class DVPNLandingPage extends Component {
-  constructor(props) {
-      super(props)
-      
-  }
-
-  render() {
-    return (
-      <div className="DVPNLandingPage">
-        <DVPNHomePage />
-        <SentinelPage />
-        <DVPNFeaturesPage />
-        <ContactUsPage />
-        <FooterSection />
-      </div>
-    );
-  }
-}
-
-export class CosmosLandingFull extends Component {
-  constructor(props) {
-    super(props)
-    
-  }
-
-  render() {
-    return (
-      <div className="DVPNLandingPage">
-        <CosmosLandingPage />
-        <CosmosLandingPage2 />
-        <CosmosLandingPage3 />
-        <FooterSection />
-    </div>
-    )
-  } 
-}
-
-export class AboutLandingFull extends Component {
-  constructor(props){
-    super(props)
-  }
-
-  render() {
-    return (
-      <div className="AboutLandingPage">
-        <AboutPage1 />
-        <AboutPage2 />
-        <FooterSection />
-      </div>
-    )
-  }
-}
 
 

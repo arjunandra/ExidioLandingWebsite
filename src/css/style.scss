@@ -1,0 +1,1158 @@
+body,
+html {
+    font-family: "Mulish", sans-serif !important;
+    height: 100%;
+}
+.navbar-nav {
+    .nav-item {
+        a {
+            color: #000;
+            font-weight: bold;
+        }
+    }
+}
+.container .navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-toggler {
+    img {
+        width: 50px;
+    }
+}
+.navbar-toggler:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+}
+.navbar-custom.navbar-white {
+    background-color: #fff;
+    padding: 10px 0;
+}
+.home-half {
+    padding-bottom: 100px;
+    padding-top: 150px;
+    .home-title {
+        color: #000;
+        width: 550px;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 50px;
+        span {
+            color: rgb(91, 71, 255);
+        }
+    }
+    .subtitle {
+        width: 475px;
+        display: inline-block;
+        font-weight: 500;
+        line-height: 2;
+        margin-top: 15px;
+        font-size: 20px;
+        color: #0d0d0d;
+    }
+}
+// HomeFeaturesPage css
+.second-section {
+    background: #000;
+    padding: 100px 0;
+    .video-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .HomeFeaturesPage {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    .HomeFeaturesTitle {
+        position: relative;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        width: 745px;
+        z-index: 5;
+    }
+
+    .HomeFeaturesPage video {
+        position: absolute;
+        align-content: center;
+        z-index: 0;
+        height: 400px;
+        width: 100%;
+        top: -120px;
+    }
+
+    .HomeFeaturesLines {
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        z-index: 0;
+        margin-top: 100px;
+    }
+
+    .HomeFeaturesContent {
+        position: relative;
+        top: -24%;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .HomeFeaturesContentBox {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 1em;
+        gap: 1em;
+        padding: 1em;
+        background: #242424;
+        border-radius: 7px;
+        height: 375px;
+    }
+
+    .HomeFeaturesContentLogo {
+        position: relative;
+        top: 5%;
+        width: 32px;
+        height: 30px;
+    }
+
+    .HomeFeaturesHeading {
+        position: relative;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 15px;
+    }
+
+    .HomeFeaturesSubHeading {
+        position: relative;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 15px;
+    }
+}
+
+// Cosmos css
+.contribute-section {
+    padding: 100px 0;
+    border-bottom: 1px solid #e9f0f4;
+    .CosmosPage {
+        position: relative;
+        left: 0px;
+        top: 0%;
+        width: 100%;
+        height: 791px;
+        background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%);
+        border: 1px solid #e9f0f4;
+        box-sizing: border-box;
+    }
+
+    .TitleTextCosmos {
+        position: relative;
+
+        font-weight: 600;
+
+        line-height: 1.3;
+        color: #0d0d0d;
+        span {
+            display: block;
+        }
+    }
+
+    .ContentCosmos {
+        position: relative;
+        display: flex;
+        top: 15%;
+        left: 10%;
+
+        width: 70%;
+        column-gap: 30%;
+    }
+
+    .ContentBoxCosmos {
+        position: relative;
+        width: 30%;
+        gap: 6em;
+    }
+
+    .LogoPortion {
+        position: relative;
+        display: flex;
+    }
+
+    .Logo {
+        position: relative;
+    }
+
+    .Text1 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 160%;
+        color: #0d0d0d;
+        text-align: left;
+    }
+
+    .Text2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0d0d;
+        text-align: left;
+    }
+
+    .LearnMoreCosmos {
+        position: relative;
+        display: flex;
+
+        font-style: normal;
+        width: 100%;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 160%;
+        color: #5b47ff;
+        align-items: center;
+    }
+
+    .LearnMoreCosmos > img {
+        position: relative;
+        width: 19px;
+        height: 19px;
+        left: 5%;
+    }
+
+    .box1 {
+        position: relative;
+    }
+
+    .box2 {
+        position: relative;
+    }
+}
+
+// First dApp css
+.building-dapp {
+    padding: 100px 0;
+    .FirstDAPPPage {
+        position: relative;
+        display: flex;
+        align-content: center;
+        width: 100%;
+        height: 725px;
+        left: 0px;
+        top: 0%;
+        background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%),
+            linear-gradient(0deg, #ffffff, #ffffff);
+        background-image: url("../assets/HomeBackground.png");
+    }
+
+    .ContentFirstDAPP {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-items: left;
+        top: 25%;
+        left: 10%;
+        width: 40%;
+        height: auto;
+        align-items: center;
+    }
+
+    .TitleFirstDAPP {
+        position: relative;
+        display: flex;
+        text-align: left;
+        width: 100%;
+        align-items: flex-start;
+        align-items: center;
+        margin: 0 0 25px 0;
+        gap: 1em;
+    }
+
+    .TitleFirstDAPP > img {
+        position: relative;
+        display: flex;
+        width: 30px;
+        height: 27px;
+    }
+
+    .TitleFirstDAPPText {
+        position: relative;
+        display: flex;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: left;
+        text-transform: uppercase;
+        left: 0%;
+        color: #0d0d0d;
+        width: auto;
+        margin: 0;
+    }
+
+    .HeadingFirstDAPP {
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.3;
+        color: #0d0d0d;
+        margin-bottom: 30px;
+    }
+
+    .SubHeadingFirstDAPP {
+        font-style: normal;
+        font-weight: 600;
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0d0d;
+    }
+
+    .PictureFirstDAPP > img {
+        position: relative;
+        width: 100%;
+    }
+    .PictureBuildingDAPP {
+        img {
+            width: 100%;
+        }
+    }
+}
+.first-app {
+    padding: 100px 0;
+    .FirstDAPPPage {
+        position: relative;
+        display: flex;
+        align-content: center;
+        width: 100%;
+        height: 725px;
+        left: 0px;
+        top: 0%;
+        background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%),
+            linear-gradient(0deg, #ffffff, #ffffff);
+        background-image: url("../assets/HomeBackground.png");
+    }
+
+    .ContentFirstDAPP {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-items: left;
+        top: 25%;
+        left: 10%;
+        width: 40%;
+        height: auto;
+        align-items: center;
+    }
+
+    .TitleFirstDAPP {
+        position: relative;
+        display: flex;
+        text-align: left;
+        width: 100%;
+        align-items: flex-start;
+        align-items: center;
+        gap: 1em;
+        margin: 0 0 25px 0;
+    }
+
+    .TitleFirstDAPP > img {
+        position: relative;
+        display: flex;
+        width: 30px;
+        height: 27px;
+    }
+
+    .TitleFirstDAPPText {
+        position: relative;
+        display: flex;
+
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 160%;
+        text-align: left;
+        text-transform: uppercase;
+        left: 0%;
+        color: #0d0d0d;
+        width: auto;
+        margin: 0;
+    }
+
+    .HeadingFirstDAPP {
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.3;
+        color: #0d0d0d;
+        margin-bottom: 30px;
+    }
+
+    .SubHeadingFirstDAPP {
+        font-style: normal;
+        font-weight: 600;
+        width: 100%;
+        text-align: left;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0d0d;
+    }
+
+    .PictureFirstDAPP > img {
+        position: relative;
+        width: 100%;
+    }
+}
+
+// CompaniesPage css
+
+.CompaniesPage {
+    position: relative;
+    display: flex;
+    background: #5f4bff;
+    padding: 100px 0;
+
+    .TitleCompanies {
+        line-height: 1.3;
+        color: #ffffff;
+    }
+
+    .CompaniesGrid {
+        position: relative;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        top: 35%;
+        left: 10%;
+        width: 40%;
+        height: 20%;
+        gap: 2em;
+    }
+
+    .CompaniesPictureBox {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        margin: 25px;
+    }
+
+    .CompaniesPictureBox > img {
+        position: relative;
+    }
+    .companies-row {
+        justify-content: center;
+        /* margin: 70px 53px; */
+        align-items: center;
+    }
+}
+
+// Contact us cs
+.contact-us {
+    background: #0d0d0d;
+    padding: 100px 0;
+
+    .ContactUsPage {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 3em;
+        gap: 3em;
+        align-items: center;
+        width: 100%;
+    }
+
+    .HeadingContactUs {
+        position: relative;
+        width: 700px;
+
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.3;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .ContactUsBtnLarge {
+        position: relative;
+        display: flex;
+        /* top: 20%; */
+        width: 200px;
+        padding: 15px 15px;
+        /* height: 15%; */
+        align-items: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: left;
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    .ContactUsBtnLarge img {
+        position: absolute;
+        display: flex;
+        right: 10px;
+    }
+
+    .ContactText {
+        position: relative;
+    }
+}
+
+.footer {
+    padding: 100px 0;
+    .foot-logo {
+        margin-bottom: 15px;
+    }
+
+    .footer-list {
+        li a {
+            color: #434359;
+            line-height: 3;
+            font-size: 14px;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.footer-alt {
+    margin: 0 0 50px 0;
+}
+// dVPN css
+
+.dvpn {
+    padding-bottom: 0px;
+    padding-top: 150px;
+    .dvpn-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .home-title {
+        color: #000;
+
+        display: inline-block;
+        font-weight: 700;
+        font-size: 50px;
+        span {
+            color: #5b47ff;
+        }
+    }
+}
+.sentinel-dvpn-section {
+    background: #0d0d0d;
+    box-shadow: 0 -9px 44px 15px rgba(0, 0, 0, 0.25);
+    padding: 100px 0;
+    .SentinelPicture {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .SentinelPage {
+        position: relative;
+        display: flex;
+        height: 881px;
+        background: #0d0d0d;
+        box-shadow: 0px -9px 44px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    .ContentSentinel {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+
+    .HeadingSentinel {
+        position: relative;
+        display: flex;
+        font-style: normal;
+        font-weight: bold;
+
+        color: #ffffff;
+    }
+
+    .SubHeadingSentinel {
+        position: relative;
+        line-height: 2;
+        font-style: normal;
+        font-weight: 500;
+        width: 100%;
+        font-size: 16px;
+        color: #ffffff;
+        margin: 15px 0;
+    }
+
+    .SentinelPicture > img {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .DownloadsPageSentinel {
+        position: relative;
+        display: flex;
+        font-style: normal;
+        width: 100%;
+        font-weight: 700;
+        font-size: 16px;
+        color: #5b47ff;
+        align-items: center;
+    }
+
+    .DownloadsPageSentinel > img {
+        position: relative;
+        width: 19px;
+        height: 19px;
+        left: 5%;
+    }
+}
+.industry-leading {
+    padding: 100px 0;
+    .DVPNFeaturesPage {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 798px;
+        gap: 2em;
+        background: #f8f8fd;
+    }
+
+    .TitleTextDVPNFeatures {
+        position: relative;
+        text-align: left;
+        font-style: Bold;
+        font-weight: 800;
+        color: #0d0d0d;
+    }
+
+    .FeatureBoxDVPNFeatures {
+        position: relative;
+        display: flex;
+        justify-content: stretch;
+        gap: 5%;
+        left: 10%;
+        top: 30%;
+        width: 80%;
+    }
+
+    .FeatureDVPNFeatures {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 50px;
+    }
+
+    .FeatureDVPNFeatures > img {
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+
+    .HeadingDVPNFeatures {
+        position: relative;
+        width: 100%;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 160%;
+        color: #0d0d0d;
+    }
+
+    .SubHeadingDVPNFeatures {
+        position: relative;
+        width: 100%;
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0d0d;
+    }
+
+    .feature4DVPNFeatures {
+        white-space: nowrap;
+    }
+}
+
+// Cosmos css
+.cosmos-section {
+    padding-bottom: 100px;
+    padding-top: 150px;
+    .CosmosLandingPage {
+        position: relative;
+        width: 100%;
+        height: 771.3px;
+        background: linear-gradient(180deg, rgba(239, 245, 249, 0.5) 0%, rgba(233, 240, 244, 0) 100%),
+            linear-gradient(0deg, #ffffff, #ffffff);
+        background-image: url("../assets/HomeBackground.png");
+    }
+
+    .CosmosLandingPageLayout {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        left: 10%;
+        top: 15%;
+        width: 90%;
+    }
+
+    .CosmosLandingPageContent {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .CosmosLandingPageHeading {
+        position: relative;
+        color: #000000;
+    }
+
+    .CosmosLandingPageHeading {
+        position: relative;
+        font-size: 48px;
+        font-weight: 900;
+        color: #000000;
+    }
+
+    .CosmosLandingPageSubHeading {
+        position: relative;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: #0d0d0d;
+        margin: 25px 0;
+    }
+
+    .CosmosLandingPageLogos {
+        position: relative;
+        display: flex;
+        top: 5%;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .CosmosLandingPageLogoBox {
+        position: relative;
+        display: flex;
+        width: 146px;
+        height: 35px;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .CosmosLandingPageLogoBox > img {
+        position: relative;
+    }
+
+    .CosmosLandingPageLogo {
+        position: relative;
+        img {
+            width: 100%;
+        }
+    }
+}
+.cosmos-second-section {
+    background: #5b47ff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .CosmosLandingPage2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CosmosLandingPage2Heading {
+        position: relative;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.2;
+        letter-spacing: 0em;
+        color: #ffffff;
+    }
+}
+.cosmos-ecosystem {
+    background: #0d0d0d;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    .ComsosLandingPage3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 731px;
+        width: 100%;
+        background: #0d0d0d;
+        justify-content: center;
+        align-items: center;
+        gap: 3em;
+    }
+
+    .CosmosLanding3Heading {
+        position: relative;
+        margin-bottom: 50px;
+        display: flex;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 50px;
+    }
+
+    .CosmosLanding3Context {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .CosmosLanding3ContextBox {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .CosmosLanding3ContextBox > img {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .CosmosLanding3ContextHeading {
+        position: relative;
+        font-family: Mulish;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .CosmosLanding3ContextSubHeading {
+        position: relative;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+
+// About page css
+.about.AboutPage1 {
+    background: #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 150px 0;
+
+    img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .AboutPage1Heading {
+        position: relative;
+        font-size: 64px;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        align-items: center;
+        width: 500px;
+        margin: auto;
+        font-weight: 900;
+    }
+}
+.about-portfolio {
+    .AboutPage2 {
+        position: relative;
+        display: flex;
+        width: 100%;
+        /* align-content: center;
+        justify-content: center; */
+    }
+
+    .AboutPage2Content {
+        /* background: teal; */
+        position: relative;
+        width: 100%;
+        display: grid;
+        gap: 4em;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: space-around;
+        justify-items: space-around;
+        align-content: space-around;
+        align-items: space-around; */
+    }
+
+    .AboutPage2ContentBox {
+        position: relative;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        background-image: url("../assets/AboutPage2Img1.png");
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+    }
+
+    .AboutPage2ContentBoxImg {
+        position: relative;
+        display: flex;
+        filter: drop-shadow(0px -6px 24px rgba(0, 0, 0, 0.15));
+    }
+
+    .AboutPage2ContentBoxImgTop {
+        position: relative;
+        margin-top: 75px;
+        display: flex;
+        filter: drop-shadow(0px -6px 24px rgba(0, 0, 0, 0.15));
+    }
+
+    .AboutPage2ContentHeading {
+        position: relative;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: black;
+    }
+
+    .AboutPage2ContentPosition {
+        position: relative;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #5b47ff;
+    }
+
+    .AboutPage2ContentSubHeading {
+        position: relative;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0d0d0d;
+    }
+}
+
+// Resoponsive css
+
+@media (max-width: 991px) {
+    .navbar-custom.navbar-white {
+        padding: 10px 20px;
+    }
+    .cosmos-section {
+        .CosmosLandingPageLogoBox {
+            position: relative;
+            display: flex;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            align-items: center;
+        }
+        .CosmosLandingPageLogoBox > img {
+            position: relative;
+            width: 80%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .CosmosLandingPageHeading {
+            position: relative;
+            font-size: 32px;
+            font-weight: 900;
+            color: #000000;
+            text-align: center;
+            line-height: 1.3;
+        }
+        .CosmosLandingPageLogo {
+            display: none;
+        }
+    }
+    .second-section {
+        .HomeFeaturesPage video {
+            display: none;
+        }
+        .HomeFeaturesLines {
+            display: none;
+        }
+    }
+    .home-half {
+        .home-title {
+            width: 100%;
+            font-size: 36px;
+        }
+        .subtitle {
+            width: 100%;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+    }
+    .second-section {
+        padding: 50px 0;
+        .HomeFeaturesTitle {
+            font-size: 30px;
+            width: 100%;
+        }
+        .HomeFeaturesContentBox {
+            margin: 25px 0;
+        }
+    }
+
+    .contribute-section {
+        padding: 50px 0;
+        .TitleTextCosmos {
+            font-size: 30px;
+        }
+
+        .TitleTextCosmos {
+            text-align: center;
+
+            span {
+                display: inline;
+            }
+        }
+        .box1 {
+            position: relative;
+            margin: 25px 0;
+        }
+    }
+    .first-app {
+        padding: 50px 0;
+        .HeadingFirstDAPP {
+            font-size: 24px;
+        }
+        .HeadingFirstDAPP {
+            font-size: 24px;
+        }
+    }
+    .building-dapp {
+        .HeadingFirstDAPP {
+            font-size: 24px;
+        }
+    }
+    .contact-us .HeadingContactUs {
+        width: 100%;
+        font-size: 30px;
+    }
+    .CompaniesPage {
+        padding: 50px 0;
+        .TitleCompanies {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    .footer {
+        text-align: center;
+    }
+    .dvpn {
+        .home-title {
+            font-size: 30px;
+            line-height: 1.3;
+        }
+    }
+    .sentinel-dvpn-section {
+        padding: 50px 0;
+        .HeadingSentinel {
+            font-size: 30px;
+            line-height: 1.3;
+        }
+        .DownloadsPageSentinel {
+            margin-bottom: 25px;
+        }
+    }
+    .industry-leading .TitleTextDVPNFeatures {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .cosmos-second-section .CosmosLandingPage2Heading {
+        font-size: 30px;
+    }
+    .cosmos-ecosystem .CosmosLanding3Heading {
+      
+        font-size: 30px;
+        line-height: 1.3;
+      
+    }
+    .about.AboutPage1 .AboutPage1Heading {
+        font-size: 36px;
+       
+        line-height: 1.3;
+    }
+    .about-portfolio .AboutPage2ContentBox {
+       
+        background-image:none; 
+        text-align: center;
+    align-items: center;
+       
+    }
+    .about-portfolio .AboutPage2ContentSubHeading {
+        align-items: center;
+        text-align: center;
+    }
+    
+}
